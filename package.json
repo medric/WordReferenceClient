@@ -1,0 +1,17 @@
+{
+    "name": "wrcli",
+    "main": "app/index.html",
+    "description": "wordreference client made with node-webkit",
+    "version": "0.1.0",
+    "keywords": ["web", "wordreference", "node-webkit"],
+    "window": {
+        "title": "WRcli",
+        "toolbar": true,
+        "frame": false,
+        "width": 800,
+        "height": 600 
+    },
+    "webkit": {
+        "plugin": true
+    }
+}

@@ -1,0 +1,51 @@
+/* Main style */
+
+/* BEM bitches */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.frame--container {
+    font-family: 'Roboto' sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #ba68c8;
+    color: #FFFFFF;
+}
+
+header h4 {
+    font-weight: 500;
+    padding: 15px;
+}
+
+.frame--container .frame--form {
+    padding: 15px;
+}
+
+.frame--container .frame--form input, .frame--container .frame--form select {
+    border: none;
+    border-bottom: solid 1px #e0e0e0;
+    width: 33%;
+    font-family: inherit;
+}
+
+.frame--container .frame--form button {
+    border: none;
+    width: 100px;
+    height: 40px;
+    background: #ba68c8;
+    color: #FFFFFF;
+    font-size: 9pt;
+    margin-top: 10px;
+}
+
+.frame--container .frame--result {
+    padding: 15px;
+}
+
