@@ -57,6 +57,9 @@
         }
     }
     
+    function FavoritesService() {
+    }
+    
     /* Controller */
     
     function MainController($scope, TranslatorService) {
@@ -80,5 +83,5 @@
     var app = angular.module('wrcli', ['ngResource']);
     app.controller('MainCtrl', MainController)
         .service('TranslatorService', TranslatorService)
-        .constant('apiKey', '057af'); // To remove before pushing on github !
+        .constant('apiKey', ''); // To remove before pushing on github !
 }();

@@ -31,8 +31,12 @@ header h4 {
 .frame--container .frame--form input, .frame--container .frame--form select {
     border: none;
     border-bottom: solid 1px #e0e0e0;
-    width: 33%;
+    width: 30%;
     font-family: inherit;
+}
+
+.frame--container .frame--form input:focus, .frame--container .frame--form select:focus{
+    outline: 0;
 }
 
 .frame--container .frame--form button {
@@ -47,5 +51,31 @@ header h4 {
 
 .frame--container .frame--result {
     padding: 15px;
+    max-height: 250px;
+    overflow-y: scroll;
 }
 
+.frame--container .frame--result ul {
+    list-style-type: none;
+}
+
+.frame--container .frame--result::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+    width: 10px;
+	background-color: #FFF;
+}
+
+.frame--container .frame--result::-webkit-scrollbar
+{
+	border-radius: 10px;
+    width: 10px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.frame--container .frame--result::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    width: 10px;
+	background-color: rgba(0,0,0,0.6);
+}
